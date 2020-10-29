@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<title> HasaniCodes: Portfolio & About Me </title>
+<!-- add icon link -->
+<head>
+  <link rel="icon"<a href="https://i.ibb.co/vcPXmsP/logo.png" alt="logo" border="-1" /></a>
+</head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+
+
+
+
+
+
+<!-- Slide Show -->
+<section>
+  <center>
+    <h2 class="w3-wide">Home</h2>
+  <img class="mySlides" src="images/close-up-photography-of-computer-motherboard-163125.jpg"
+  style="width:60%">
+  <img class="mySlides" src="images/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg"
+  style="width:60%">
+  <img class="mySlides" src="images/personal-computer-motherboard-4316.jpg"
+  style="width:60%">
+  <img class="mySlides" src="images/hasani-lo.jpg"
+  style="width:39%">
+
+
+
+</center>
+</section>
+
+<!-- Band Description -->
+<section>
+  <center>
+
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">About</h2>
+  <p class="w3-opacity"><i><q>Putting the <b>Pro</b> in Programming<br> since March 23, 2020.</q></i></p>
+  <hr/>
+  <p class="w3-justify"> Hi! I'm Hasani. <br>
+ <p>I am a developer currently residing in New York, NY.</p>
+
+ <p>After receiving my Bachelors Degree in Accounting from CUNY
+   Brooklyn College. I worked in the private sector for a four years.
+   doing a wide range of roles including Accounts Payable, Payroll, Accounts Receivable
+   and misc tasks.</p>
+
+  <p>However, due to the pandemic, I  began coding during quarantine out of curiosity,
+   and has since developed a passion for the art.</P>
+ </p>
+<hr/>
+ <img src="Images/CodePoetry.jpeg" alt="Hasani's Code Poetry"
+ style="width:60%">
+ <p><i> Love! by Hasani<i/></p>
+</center>
+</section>
+
+<!-- Band Members -->
+<section>
+<center>
+<h3><i><ins>Skills</ins></i></h3>
+
+
+<img src="logos/icons8-html-5-144.jpg" alt="Random Name" height=100">
+<br>
+
+<img src="logos/icons8-css3-150.jpg" alt="Random Name" height="100"">
+<br>
+  <img src="logos/icons8-javascript-144.jpg" alt="Random Name" height="100"">
+  </div>
+</center>
+</div>
+<!-- Footer -->
+<center>
+
+<h4><u> Links </u></h4>
+
+  <a href="https://freecodecamp.org/hasani"><i class="	fa fa-mortar-board"></i></a>
+  <a href="https://codepen.io/hasanicodes"><i class="fa fa-codepen"></i></a>
+  <a href="https://github.com/hasanicodes"><i class="fa fa-github"></i></a>
+  <a href="mailto:hasanicodes@gmail.com"><i class="fa fa-envelope"></i></a>
+<h5> <i>[Feel free to contact me]</i></h5>
+<h> Copyright ©2020 -hasanicodes.com</h>
+</center>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 11000);
+}
+</script>
+
+</body>
+</html>
