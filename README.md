@@ -1,3 +1,5 @@
 # H-Code
 
-I am just learning the basics by working on my own "hello world" project.
+This is my very own "hello world" project.
+Just basic Html & Css.
+More to come in the future so keep posted.
