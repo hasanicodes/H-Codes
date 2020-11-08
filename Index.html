@@ -39,7 +39,11 @@
 
 <!-- Slide Show -->
 <section>
-  <center>
+  </script>
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+    <center>
     <h2 class="w3-wide">Home</h2>
   <img class="mySlides" src="images/close-up-photography-of-computer-motherboard-163125.jpg"
   style="width:60%">
@@ -123,10 +127,7 @@ function carousel() {
   x[myIndex-1].style.display = "block";
   setTimeout(carousel, 11000);
 }
-</script>
-<button onclick="myFunction()">Toggle dark mode</button>
 
-<script>
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
