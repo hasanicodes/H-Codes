@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <title> HasaniCodes: Creating The Future</title>
 <!-- add configuration -->
@@ -20,91 +19,33 @@
 
   p {font-family:modern computer;}
 
-  
-  .nav_bar, .nav{
-    padding:-1;
-    display:inline-block;
+  body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+
 }
-    /* styling navlist */ 
-    #navlist { 
-        background-color: #000000;
-      position: absolute;
-        width: 100%;  
-    } 
-          
-    /* styling navlist anchor element */ 
-    #navlist a { 
-        float:left;
-        padding:-1;
-        display: inline-block; 
-        color: #f2f2f2; 
-        text-align: center; 
-        padding: 12px; 
-        text-decoration: none; 
-        font-size: 15px; 
-    } 
-      
-    .navlist-right{ 
-        float:right; 
-    } 
-  
-    /* hover effect of navlist anchor element */ 
-    #navlist a:hover { 
-        background-color: #ddd; 
-        color: black; 
-    } 
-          
-    /* styling search bar */ 
-    .search input[type=text]{ 
-        width:300px; 
-        height:25px; 
-        border-radius:25px; 
-        border: none; 
-    } 
-          
-    .search{ 
-        float:right; 
-        margin:7px; 
-    } 
-          
-    .search button{ 
-        background-color: #007239; 
-        color: #f2f2f2; 
-        float: right; 
-        padding: 5px 10px; 
-        margin-right: 16px; 
-        font-size: 12px; 
-        border: none; 
-        cursor: pointer; 
-    }  
 
-</style> 
+.dark-mode {
+  background-color: black;
+  color: white;
+  alight:right;
+  }
 
-<body> 
-      
-    <!-- Navbar items -->
-    <div id="navlist"> 
-        <a href="#">Home</a> 
-        <a href="#">About Me</a> 
-        <a href="#">My Skills</a> 
-        <a href="#">Contact Us</a> 
-          
-        <!-- seach bar right align -->
-        <div class="search"> 
-            <form action="#"> 
-                <input type="text"
-                    placeholder=" Search"
-                    name="search"> 
-                <button> 
-                    <i class="fa fa-search"
-                        style="font-size: 18px;"> 
-                    </i> 
-                </button> 
-            </form> 
-        </div> 
-    </div> 
-      
-</form>
+  .border {
+ border-style:solid;
+ border-color:#287EC7;
+}
+</style>
+<body>
+
+
+  <nav>
+<a href-"index.html">
+  <img src="/images/logo.jpg" height="50" alt="hasanicodes">
+
+  <button onclick="myFunction()"style="float: right;">Toggle dark mode</button>
+       </a>
 
   </nav>
 
@@ -116,22 +57,10 @@ function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
-
 </script>
   <section>
     <center>
-      &nbsp;
-      <br>
-      &nbsp;
-      <br>
-      &nbsp;
-      <br>
-      &nbsp;
-      <br>
-      &nbsp;
-      <br>
-       &nbsp;
-      <br>
+    <h2 class="w3-wide">Home</h2>
   <img class="mySlides" src="images/close-up-photography-of-computer-motherboard-163125.jpg" alt="computer motherboard"
   style="width:60%">
   <img class="mySlides" src="images/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg" alt="Computer Screen"
@@ -154,16 +83,16 @@ function myFunction() {
  <p>I'm a <b>developer</b> currently residing in New York, NY.</p>
 
  <p>After receiving my <b>Bachelors Degree</b> in Accounting from <b><i>CUNY
-   Brooklyn College</b></i>.</br> I worked in the private sector for a <b>four years</b>
-      in a wide range of <b>roles</b> including Accounts Payable, Payroll, Accounts Receivable
+   Brooklyn College</b> </i>. I worked in the private sector for a <b>four years</b>
+  in a wide range of roles including Accounts Payable, Payroll, Accounts Receivable
    and Cash Receivables.</p>
 
-    <p>However, due to the pandemic, I  began coding during <b>quarantine</b> out of <b>curiosity</b>,
+  <p>However, due to the pandemic, I  began coding during <b>quarantine</b> out of curiosity,
     and has since developed a <b>passion</b> for the science. </P>
  </p>
 <hr/>
   <!-- code poetry showcase -->
- <img src="Images/IMG_3720.jpg" alt="Hasani's Code Poetry"
+ <img src="Images/CodePoetry2.jpg" alt="Hasani's Code Poetry"
  style="width:60%">
  <p><i> Love! by Hasani<i/></p>
 
@@ -199,10 +128,8 @@ function myFunction() {
 
 
 <p style="float:left;"> © 2021 - hasanicodes.com</p>
-                      
-                        <p style="float: right;">All rights reserved</p>
-                      
-                                                </div>
+                      <p style="float:right;">&#129665;</p>
+                      </div>
 </center>
 <script>
 // Automatic Slideshow - change image every 3 seconds
