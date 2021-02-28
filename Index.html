@@ -88,8 +88,12 @@
         border: none; 
         cursor: pointer; 
     }  
+  
+  <script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=site:hasanicodes.com ' + document.getElementById('txtSearch').value;
+        return false;
 </style> 
-</style>
 
 <body> 
       
