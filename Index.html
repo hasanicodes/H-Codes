@@ -89,13 +89,6 @@
         cursor: pointer; 
     }  
   
-  $search = $_POST['findMe'];
-//$search = "example";//THIS WOULD WORK, BUT I WAS SHOWING HOW TO USE FORM
-
-//IF WORD FOUND IN HOME PAGE
-if (stripos($home, $search) !== false) {//USING EXAMPLE.COM TO SHOW IT WORKS
-    echo '<a href="'.$homePageName.'">'.$homePageName.'</a>';
-}
 </style> 
 
 <body> 
@@ -110,9 +103,9 @@ if (stripos($home, $search) !== false) {//USING EXAMPLE.COM TO SHOW IT WORKS
         <!-- seach bar right align -->
         <div class="search"> 
             <form action="#"> 
-               <form action="search.php" method="post">
-    <input type="text" name="findMe" placeholder="Search Yacht">
-</form>
+                <input type="text"
+                    placeholder=" Search"
+                    name="search"> 
                 <button> 
                     <i class="fa fa-search"
                         style="font-size: 18px;"> 
