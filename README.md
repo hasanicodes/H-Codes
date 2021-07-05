@@ -1,5 +1,3 @@
-# H-Code
+# H-Codes
 
-This is my very own "hello world" project.
-Just basic Html & Css.
-More to come in the future so stay posted.
+A dynamic and simplified websited created entirely in Html. Features a mini bio about me and showcases links to my social.
