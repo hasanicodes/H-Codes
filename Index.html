@@ -2,7 +2,7 @@
 <html>
   <head>
     <title> HasaniCodes: Creating The Future </title>
-      <link rel="icon"<a href="https://i.ibb.co/vcPXmsP/logo.png" alt="logo" border="-1" /></a>
+    <link rel="icon"<a href="https://i.ibb.co/vcPXmsP/logo.png" alt="logo" border="-1" /></a>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
            <meta charset="UTF-8">
@@ -44,6 +44,7 @@
 
   <a href-"index.html">
        <img src="/images/logo.jpg" height="50" alt="hasanicodes">
+    <label id="lblGreetings"></label>
        <button onclick="myFunction()"style="float: right;">Toggle dark mode</button>
    </a>
    
@@ -57,6 +58,21 @@ function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
+      
+var myDate = new Date();
+    var hrs = myDate.getHours();
+
+    var greet;
+
+    if (hrs < 12)
+        greet = 'Good Morning';
+    else if (hrs >= 12 && hrs <= 17)
+        greet = 'Good Afternoon';
+    else if (hrs >= 17 && hrs <= 24)
+        greet = 'Good Evening';
+
+    document.getElementById('lblGreetings').innerHTML =
+        '<b>' + greet + '</b> and welcome to HasaniCodes.Com!';
 </script>
   <section>
     <center>
